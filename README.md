@@ -14,6 +14,7 @@
 
 ```bash
 git clone https://github.com/daron035/lib_cli.git
+cd lib_cli
 pip install dist/cli_tool-0.1.0-py3-none-any.whl
 ```
 
@@ -29,4 +30,3 @@ mycli remove <id>
 # тесты
 pytest cli_tool/test_library.py
 ```
-
