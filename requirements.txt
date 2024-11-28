@@ -1,0 +1,4 @@
+adaptix==3.0.0b8 ; python_version >= "3.10" and python_version < "4.0"
+exceptiongroup==1.2.2 ; python_version >= "3.10" and python_version < "3.11"
+orjson==3.10.12 ; python_version >= "3.10" and python_version < "4.0"
+structlog==24.4.0 ; python_version >= "3.10" and python_version < "4.0"

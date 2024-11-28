@@ -1,0 +1,37 @@
+[build-system]
+requires = ["setuptools >= 66.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cli-tool"
+requires-python = ">= 3.10"
+version = "0.1.0"
+description = "A simple CLI tool"
+authors = [
+    { name = "Your Name", email = "your.email@example.com" }
+]
+dependencies = [
+    "adaptix==3.0.0b8; python_version >= '3.10' and python_version < '4.0'",
+    "exceptiongroup==1.2.2; python_version >= '3.10' and python_version < '3.11'",
+    "orjson==3.10.12; python_version >= '3.10' and python_version < '4.0'",
+    "structlog==24.4.0; python_version >= '3.10' and python_version < '4.0'"
+]
+
+[project.scripts]
+mycli = "cli_tool.main:main"
+
+[tool.poetry]
+name = "lib-cli-tool-999"
+version = "0.1.0"
+description = ""
+authors = ["daron035 <kamil249@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+structlog = "^24.4.0"
+adaptix = "^3.0.0b8"
+orjson = "^3.10.12"
+pytest = "^8.3.3"
+
+

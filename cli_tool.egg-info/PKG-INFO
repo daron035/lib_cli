@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: cli-tool
+Version: 0.1.0
+Summary: A simple CLI tool
+Author-email: Your Name <your.email@example.com>
+Requires-Python: >=3.10
+License-File: LICENSE
+Requires-Dist: adaptix==3.0.0b8; python_version >= "3.10" and python_version < "4.0"
+Requires-Dist: exceptiongroup==1.2.2; python_version >= "3.10" and python_version < "3.11"
+Requires-Dist: orjson==3.10.12; python_version >= "3.10" and python_version < "4.0"
+Requires-Dist: structlog==24.4.0; python_version >= "3.10" and python_version < "4.0"

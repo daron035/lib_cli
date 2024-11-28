@@ -1,0 +1,8 @@
+
+[:python_version >= "3.10" and python_version < "3.11"]
+exceptiongroup==1.2.2
+
+[:python_version >= "3.10" and python_version < "4.0"]
+adaptix==3.0.0b8
+orjson==3.10.12
+structlog==24.4.0
